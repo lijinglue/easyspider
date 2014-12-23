@@ -1,0 +1,13 @@
+{
+    "webdriver":"chrome",
+    "error_screenshot": true,
+    "error_screenshot_path": "/tmp/screenshot/error",
+    "keyword_screenshot": false,
+    "keyword_screenshot_path": "/tmp/screenshot/",
+    "screenshot_persistence": "local",
+    "keyword_interval": 5,
+    "output_file": "output.log",
+    "active_spider":["baidu","qihu"],
+    "application_root":"/repos/sample-scrapy/easyspider",
+    "master_url":"http://localhost:13296"
+}
