@@ -174,7 +174,7 @@ if __name__ == '__main__':
                     base[key] = value
                 else:
                     base[key] = list(set(base[key]) | set(value))
-                return base
+            return base
 
         def _persists(self):
             while self.data_queue:
